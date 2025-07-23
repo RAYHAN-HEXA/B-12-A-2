@@ -1,0 +1,76 @@
+
+.open-sans-normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    background-color: rgb(245, 248, 255);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* shared style */
+
+.orange-color{
+  color: rgb(233, 90, 8);
+}
+
+
+
+/* Nav style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 48px ;
+    
+}
+nav ul li{
+    list-style: none;
+
+  
+}
+nav ul li a{
+    text-decoration: none;
+        color: rgb(37, 36, 50);
+}
+/* Banner style */
+.Banner{
+ display: flex;
+ align-items: center;
+width: 1140px;
+height: 461px;
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+padding: 100px;
+margin-top: 50px;
+ 
+}
+
+
+.Banner-container h1{
+font-size: 45px;
+font-weight: 700;
+margin-top: 180px;
+}
+.Banner-container p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.card{
+ max-width: 1440px;
+
+padding: 150px 50p 150px 150px;
+}
