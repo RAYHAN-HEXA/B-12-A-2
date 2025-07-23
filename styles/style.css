@@ -22,6 +22,9 @@ body{
 .orange-color{
   color: rgb(233, 90, 8);
 }
+.text-center{
+    text-align: center;
+}
 
 
 
@@ -49,13 +52,12 @@ nav ul li a{
 .Banner{
  display: flex;
  align-items: center;
-width: 1140px;
-height: 461px;
+
 justify-content: center;
 margin-left: 100px;
 margin-right: 100px;
-padding: 100px;
-margin-top: 50px;
+padding: 70px;
+margin-top: 20px;
  
 }
 
@@ -66,11 +68,117 @@ font-weight: 700;
 margin-top: 180px;
 }
 .Banner-container p{
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* ard section */
+.card{
+
+    margin: 0px 90px 0px 160px;
+    padding: 20px;
+
+
+}
+
+.container-card{
+display: grid;
+grid-template-columns: repeat(4,1fr) ;
+
+justify-items: center;
+
+
+
+}
+.container-card img{
+
+width: 220px;
+height: 280.94px;
+}
+.card-heading{
+margin-top: 5px;
+font-size: 40px;
+font-weight: 700;
+
+}
+
+.plants-card button{
+    background-color: rgb(233, 90, 8) ;
+    color: rgb(255, 255, 255) ;
+    width: 220px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+
+    
+}
+.plants-card h5,p{
+    text-align: center;
+    margin: 5px;
+
+}
+/* Responsive style */
+@media screen and (max-width:576px) {
+
+    
+nav{
+  
+justify-content: space-between;
+   
+}
+
+.Banner {
+    display: flex;
+    flex-direction: column-reverse;
+ 
+ 
+  }
+  
+
+  
+  .Banner-img{
+ 
+  }
+  .container-card{
+    grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   grid-gap: 10px;
+
+  }
+  .Banner-container {
+
+margin-right: 130px;
+
+
+
+
+}
+.Banner-container h1{
+    margin-top: 10px;
+    text-align: left;
+    
+ 
+}
+.Banner-container p{
+    text-align: left;
+    margin: 0px;
 }
 .card{
- max-width: 1440px;
 
-padding: 150px 50p 150px 150px;
+    margin: 0px 70px 0px 160px;
+
+
+
+}
+.card-heading{
+margin-top: 0px;
+font-size: 40px;
+font-weight: 700;
+
+}
+.card-paragraph{
+
+   text-align: start;
+
+}
+
 }
