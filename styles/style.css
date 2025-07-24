@@ -65,14 +65,13 @@ margin-top: 20px;
 .Banner-container h1{
 font-size: 45px;
 font-weight: 700;
-margin-top: 180px;
+text-align:left ;
+
 }
-.Banner-container p{
-    margin-top: 10px;
-    margin-bottom: 30px;
+
  
-}
-/* ard section */
+
+/* card section */
 .card{
 
     margin: 0px 90px 0px 160px;
@@ -114,7 +113,7 @@ font-weight: 700;
 }
 .plants-card h5,p{
     text-align: center;
-    margin: 5px;
+  
 
 }
 /* Tre  lovers section style */
@@ -124,7 +123,7 @@ font-weight: 700;
     justify-content: center;
   align-items: center;
    gap: 20px;
-margin: 60px 200px 120px 150px;
+margin: 60px 200px 10px 150px;
 padding: 50px;
 
 }
@@ -144,6 +143,7 @@ margin-top: -100px;
 padding-right: 45px 42px;
 margin-left: 280px;
 
+
  }
 .inner-img-2{
 
@@ -162,17 +162,113 @@ height: 450px
 .tree-lover-container h1{
 font-size: 50px;
 font-weight: 700;
-margin-top: 10px;
+
 
 }
 .tree-lover-container p,li{
     text-align: start;
-   margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 18px;
+
+font-size: 18px;
 font-weight: 400;
 color: rgba(0, 0, 0, 0.5)
 ;
+}
+/* Latest Deal */
+.img-left-1{
+ background-image: url(../assets/deal-ana.png);
+
+
+width: 366.22px;
+height: 206px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+
+
+}
+.img-left-2{
+ background-image: url(../assets/deal-bloom.png);
+ width: 366.22px;
+height: 206px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px
+
+}
+.img-right{
+    background-image: url(../assets/deal-zabo.png);
+    width: 800px;
+    height: 410.13px;
+    width: 50%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px
+  
+
+}
+.img-container{
+ 
+ max-width: 50%;
+}
+
+.img-parent{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   max-width: 1140px;
+height: 423.13px;
+gap: 10px
+;
+padding: 50px;
+margin-left: 70px;
+}
+
+.deals-container{
+ 
+ margin-bottom: 60px;
+    
+}
+.text-primary{
+font-size: 16px;
+font-weight: 600;
+text-decoration: underline;
+
+}
+
+.Bunch-container{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 1440px;
+    height: 533px;
+margin: 120px 0px 0px 0px;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+footer{
+    display: flex;
+   justify-content: space-around;
+    width: 1140px;
+     height: 350px;
+}
+.parent-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 50px;
 }
 
 /* Responsive style */
@@ -193,10 +289,7 @@ justify-content: space-between;
   }
   
 
-  
-  .Banner-img{
- 
-  }
+
   .container-card{
     grid-template-columns: repeat(2,1fr);
    justify-content: center;
@@ -229,7 +322,7 @@ margin-right: 130px;
 
 }
 .card-heading{
-margin-top: 0px;
+
 font-size: 40px;
 font-weight: 700;
 
@@ -261,6 +354,7 @@ font-weight: 700;
   {
     display: none;
   }
+/* Leatest Deal */
 
 
 }
