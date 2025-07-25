@@ -182,9 +182,10 @@ box-shadow: -.1px .1px .5px 0px rgba(0, 0, 0, 0.25);
 }
 .inner-img-2{
 
-position: static;
-width: 450px;
-height: 450px
+ width: 100%; 
+height: auto; 
+display: block;
+    
 }
 .tree-lover-container{
 
@@ -413,9 +414,9 @@ nav{
   
 justify-content:space-between;
  padding : 15px;
-
-   
 }
+
+
 /* Banner section */
 .Banner {
     display: flex;
@@ -424,6 +425,10 @@ justify-content:space-between;
  
  
   }
+  .Banner-img{
+width: 393.18px;
+height: 200px;
+  }
 
   .laptop-break {
     display: none;
@@ -431,14 +436,6 @@ justify-content:space-between;
 
 
  
- 
-  .Banner-container {
-
-
-
-
-
-}
 .Banner-container h1{
    
 font-size: 24px;
@@ -461,6 +458,15 @@ font-weight: 400;
   
 }
 /* card styles */
+.plants-card img{
+    width: 171px;
+height: 196.5px;
+margin: 0 auto;
+}
+.plants-card button{
+    width: 171px;
+height: 50px;
+}
 .container-card{
  grid-template-columns: repeat(2,1fr);
  justify-content: center;
@@ -476,13 +482,19 @@ font-weight: 700;
 }
 .card-paragraph{
 
-   text-align: center;
-   font-size: 14px;
+text-align: center;
+font-size: 14px;
 font-weight: 400;
  padding: 20px;
 
 }
 /* tree lover styles */
+.inner-img-2{
+ max-width:350px ;
+
+
+
+}
 .tree-lover{
     flex-direction: column;
     align-items: center;
@@ -492,10 +504,7 @@ font-weight: 400;
    
 
   }
-  .tree-lover-img
-  {
-    margin-right: 190px;
-  }
+  
   .tree-lover-container{
     margin: 0px;
     padding: 0px;
@@ -523,7 +532,7 @@ font-weight: 400;
 .img-parent{
     flex-direction: column;
   
-   margin-left: 5px
+ margin: 0 auto
    ;
 
 }
@@ -539,7 +548,7 @@ font-weight: 700;
 
 
 height: 275px;
-
+        
 }
 .Bunch-container label input{
 width: 218px;
