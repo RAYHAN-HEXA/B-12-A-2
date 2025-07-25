@@ -135,15 +135,15 @@ font-weight: 700;
   
 
 }
-/* Tre  lovers section style */
+/* Tree  lovers section style */
 .tree-lover{
     display: flex;
     width: 100%;
     justify-content: center;
   align-items: center;
-   gap: 20px;
+   gap: 50px;
 margin: 60px 200px 10px 150px;
-padding: 50px;
+padding: 30px;
 
 }
 
@@ -155,18 +155,18 @@ width: 50%;
 }
  .inner-img-1{
    
-position: absolute;
-width: 250px;
-height: 250px;
-margin-top: -100px;
-padding-right: 45px 42px;
-margin-left: 280px;
-height: auto;
-z-index: 2;
-animation: spin-pause 2s linear infinite;
-background-color: transparent;
-box-shadow: -.1px .1px .5px 0px rgba(0, 0, 0, 0.25);
 
+  width: 250px;
+   height:250px;
+    position: absolute;
+    margin-top: -100px;
+    padding-right: 45px 42px;
+    margin-left: 280px;
+    height: auto;
+    z-index: 2;
+    animation: spin-pause 2s linear infinite;
+    background-color: transparent; 
+   
 
  }
  @keyframes spin-pause {
@@ -183,7 +183,7 @@ box-shadow: -.1px .1px .5px 0px rgba(0, 0, 0, 0.25);
 .inner-img-2{
 
  width: 100%; 
-height: auto; 
+
 display: block;
     
 }
@@ -426,8 +426,8 @@ justify-content:space-between;
  
   }
   .Banner-img{
-width: 393.18px;
-height: 200px;
+width: 383.18px;
+height: 245px;
   }
 
   .laptop-break {
@@ -490,17 +490,18 @@ font-weight: 400;
 }
 /* tree lover styles */
 .inner-img-2{
- max-width:350px ;
-
+ max-width: 400px;
 
 
 }
+
+
 .tree-lover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px;
-    padding: 5px;
+  margin: 0 auto;
+    padding: 10px;
    
 
   }
@@ -515,7 +516,7 @@ font-weight: 400;
   }
   .inner-img-1
   {
-    display: none;
+     display: none;
   }
 /* Leatest Deal */
 .deals-container {
